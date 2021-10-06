@@ -1,2 +1,2 @@
 # Web-scraper
- Simple web scraper
+ Simple web scraper using cheerio.
