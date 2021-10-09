@@ -1,7 +1,6 @@
 import express, { Application, Request, Response, NextFunction } from "express";
 import * as cheerio from "cheerio";
 import axios from "axios";
-import { html } from "cheerio/lib/api/manipulation";
 
 const app: Application = express();
 const port = 5000;
