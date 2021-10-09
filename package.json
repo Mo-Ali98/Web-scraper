@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node dist/app.js",
     "dev": "nodemon src/app.ts",
-    "build": "tsc -p .",
+    "build": "tsc --build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -21,7 +21,7 @@
     "nodemon": "^2.0.13",
     "ts-node": "^10.2.1",
     "tslint": "^5.12.1",
-    "typescript": "^3.9.10"
+    "typescript": "^4.4.3"
   },
   "dependencies": {
     "@types/cheerio": "^0.22.30",
